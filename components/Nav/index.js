@@ -90,7 +90,7 @@ const MobileMenuItems = styled.nav`
 
   ul {
     text-transform: uppercase;
-
+    list-style: none;
     li {
       margin-bottom: 60px;
       transition: all 0.8s ease-in-out;
