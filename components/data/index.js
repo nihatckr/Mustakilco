@@ -6,8 +6,8 @@ export const projects = [
     height: 1406,
     largeURL: "c",
     thumbnailURL: "c",
-    category: "Pizza",
-    title: "5 Food ",
+    category: "Office",
+    title: "Eurocross ",
     subtitle: "5 Food Apps  ",
     pointOfInterest: 80,
     backgroundColor: "#814A0E",
@@ -197,10 +197,9 @@ export const slider = [
     category: "Office",
     services: "Design",
     title: "Loreal",
-    subtitle: "Beauty",
-    content: "Lorem ipsum dolor sit a molestie sapien. ",
+    subtitle: "Office",
+    content: "asjkdhaskdhkjashdlkaşslksdşlj ",
   },
-
   {
     id: "4",
     largeURL: "a2",
@@ -210,7 +209,7 @@ export const slider = [
     services: "Design",
     title: "Sampo Japon",
     subtitle: "Insurance",
-    content: " Donec semper cursus risus, utvinar eu.  ",
+    content: "Sampo japon",
   },
 
   {

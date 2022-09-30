@@ -5,9 +5,31 @@ import Layout from "../components/Layout";
 
 import { slider } from "../components/data";
 
+import { useRouter } from "next/router";
+
+import { collection } from "firebase/firestore";
+import { app, database } from "../firebase";
+
 const Home = () => {
   const [index, setIndex] = useState(1);
   const [currentImage, setCurrentImage] = useState(slider);
+
+  const databaseRef = collection(database, 'CRUD Data');
+
+  let router = useRouter()
+
+  useEffect(() => {
+    let token = sessionStorage.getItem('Token')
+    if (!token) {
+      router.push('/register')
+    }
+  })
+
+  const addData = () => {
+    addData(databaseRef, {
+
+    })
+  }
 
   useEffect(() => {
     const lastIndex = currentImage.length - 1;

@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-google-maps/api": "^2.12.2",
     "dotenv": "^16.0.2",
+    "firebase": "^9.10.0",
     "framer-motion": "^7.2.1",
     "next": "12.2.5",
     "photoswipe": "^5.3.2",
